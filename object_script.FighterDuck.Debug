@@ -1,0 +1,10 @@
+debug/boxEnemy.o
+debug/client.o
+debug/enemy.o
+debug/gameEngine.o
+debug/gameMenu.o
+debug/main.o
+debug/player.o
+debug/moc_client.o
+debug/moc_gameEngine.o
+debug/moc_gameMenu.o
