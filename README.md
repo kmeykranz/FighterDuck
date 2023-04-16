@@ -3,7 +3,7 @@ A game made with C++ and Qt<br />
 用C++和Qt开发的一款游戏<br />
 使用的Qt版本是6.2.4<br />
 自己绘制的美术素材<br />
-对你有帮助的话给个星星收藏下吧~<br />
+对你有帮助的话给个Star吧~<br />
 <img src="https://bed.kevinwu.cc/img/fighterduck.webp" style="zoom: 20%;" />
 
 ## 游戏日志如下:
