@@ -7,6 +7,7 @@ BoxEnemy::BoxEnemy(QWidget* widget)
     box->setPixmap(boxDef);
     box->setFixedSize(150,150);
     box->setScaledContents(true);
+    box->show();
 
     health=new QLabel(widget);
 
@@ -16,6 +17,7 @@ BoxEnemy::BoxEnemy(QWidget* widget)
     health->setStyleSheet("color:red;");
     health->setText(string_health_number);
     box->move(x,y);
+    health->show();
 }
 BoxEnemy::~BoxEnemy(){
     delete box;

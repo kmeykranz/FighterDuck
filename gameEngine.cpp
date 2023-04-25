@@ -5,6 +5,8 @@ GameEngine::GameEngine(QWidget *parent)
     : QWidget(parent)
     , ui(new Ui::GameEngine)
 {
+
+
     ui->setupUi(this);
     this->setWindowTitle("Fighter duck Demo 04");
     this->setFixedSize(750,400);
@@ -12,11 +14,11 @@ GameEngine::GameEngine(QWidget *parent)
     background=new QMovie("Images/bg.gif");
     QLabel *bg = new QLabel(this);
     bg->setMovie(background);
-    background->setSpeed(10);
     background->start();
+    background->setSpeed(20);
     bg->setFixedSize(750,400);
     bg->setScaledContents(true);
-
+    bg->show();
     //创建玩家
     box=new BoxEnemy(this);
     enemy=new Enemy(this);

@@ -307,6 +307,10 @@ release/moc_gameEngine.cpp: gameEngine.h \
 		../../../QT/6.2.4/mingw_64/include/QtGui/qtextcursor.h \
 		../../../QT/6.2.4/mingw_64/include/QtGui/qtextformat.h \
 		../../../QT/6.2.4/mingw_64/include/QtGui/qpen.h \
+		../../../QT/6.2.4/mingw_64/include/QtGui/QGuiApplication \
+		../../../QT/6.2.4/mingw_64/include/QtGui/qguiapplication.h \
+		../../../QT/6.2.4/mingw_64/include/QtGui/qinputmethod.h \
+		../../../QT/6.2.4/mingw_64/include/QtGui/qguiapplication_platform.h \
 		player.h \
 		boxEnemy.h \
 		enemy.h \
@@ -491,6 +495,10 @@ release/moc_gameMenu.cpp: gameMenu.h \
 		../../../QT/6.2.4/mingw_64/include/QtGui/qtextcursor.h \
 		../../../QT/6.2.4/mingw_64/include/QtGui/qtextformat.h \
 		../../../QT/6.2.4/mingw_64/include/QtGui/qpen.h \
+		../../../QT/6.2.4/mingw_64/include/QtGui/QGuiApplication \
+		../../../QT/6.2.4/mingw_64/include/QtGui/qguiapplication.h \
+		../../../QT/6.2.4/mingw_64/include/QtGui/qinputmethod.h \
+		../../../QT/6.2.4/mingw_64/include/QtGui/qguiapplication_platform.h \
 		gameengine.h \
 		player.h \
 		boxEnemy.h \
@@ -702,7 +710,11 @@ release/boxEnemy.o: boxEnemy.cpp boxEnemy.h \
 		../../../QT/6.2.4/mingw_64/include/QtGui/qtextoption.h \
 		../../../QT/6.2.4/mingw_64/include/QtGui/qtextcursor.h \
 		../../../QT/6.2.4/mingw_64/include/QtGui/qtextformat.h \
-		../../../QT/6.2.4/mingw_64/include/QtGui/qpen.h
+		../../../QT/6.2.4/mingw_64/include/QtGui/qpen.h \
+		../../../QT/6.2.4/mingw_64/include/QtGui/QGuiApplication \
+		../../../QT/6.2.4/mingw_64/include/QtGui/qguiapplication.h \
+		../../../QT/6.2.4/mingw_64/include/QtGui/qinputmethod.h \
+		../../../QT/6.2.4/mingw_64/include/QtGui/qguiapplication_platform.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o release\boxEnemy.o boxEnemy.cpp
 
 release/enemy.o: enemy.cpp enemy.h \
@@ -880,7 +892,11 @@ release/enemy.o: enemy.cpp enemy.h \
 		../../../QT/6.2.4/mingw_64/include/QtGui/qtextoption.h \
 		../../../QT/6.2.4/mingw_64/include/QtGui/qtextcursor.h \
 		../../../QT/6.2.4/mingw_64/include/QtGui/qtextformat.h \
-		../../../QT/6.2.4/mingw_64/include/QtGui/qpen.h
+		../../../QT/6.2.4/mingw_64/include/QtGui/qpen.h \
+		../../../QT/6.2.4/mingw_64/include/QtGui/QGuiApplication \
+		../../../QT/6.2.4/mingw_64/include/QtGui/qguiapplication.h \
+		../../../QT/6.2.4/mingw_64/include/QtGui/qinputmethod.h \
+		../../../QT/6.2.4/mingw_64/include/QtGui/qguiapplication_platform.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o release\enemy.o enemy.cpp
 
 release/gameEngine.o: gameEngine.cpp gameengine.h \
@@ -1059,6 +1075,10 @@ release/gameEngine.o: gameEngine.cpp gameengine.h \
 		../../../QT/6.2.4/mingw_64/include/QtGui/qtextcursor.h \
 		../../../QT/6.2.4/mingw_64/include/QtGui/qtextformat.h \
 		../../../QT/6.2.4/mingw_64/include/QtGui/qpen.h \
+		../../../QT/6.2.4/mingw_64/include/QtGui/QGuiApplication \
+		../../../QT/6.2.4/mingw_64/include/QtGui/qguiapplication.h \
+		../../../QT/6.2.4/mingw_64/include/QtGui/qinputmethod.h \
+		../../../QT/6.2.4/mingw_64/include/QtGui/qguiapplication_platform.h \
 		player.h \
 		boxEnemy.h \
 		enemy.h \
@@ -1066,10 +1086,7 @@ release/gameEngine.o: gameEngine.cpp gameengine.h \
 		ui_gameengine.h \
 		../../../QT/6.2.4/mingw_64/include/QtCore/QVariant \
 		../../../QT/6.2.4/mingw_64/include/QtWidgets/QApplication \
-		../../../QT/6.2.4/mingw_64/include/QtWidgets/qapplication.h \
-		../../../QT/6.2.4/mingw_64/include/QtGui/qguiapplication.h \
-		../../../QT/6.2.4/mingw_64/include/QtGui/qinputmethod.h \
-		../../../QT/6.2.4/mingw_64/include/QtGui/qguiapplication_platform.h
+		../../../QT/6.2.4/mingw_64/include/QtWidgets/qapplication.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o release\gameEngine.o gameEngine.cpp
 
 release/gameMenu.o: gameMenu.cpp gameMenu.h \
@@ -1248,6 +1265,10 @@ release/gameMenu.o: gameMenu.cpp gameMenu.h \
 		../../../QT/6.2.4/mingw_64/include/QtGui/qtextcursor.h \
 		../../../QT/6.2.4/mingw_64/include/QtGui/qtextformat.h \
 		../../../QT/6.2.4/mingw_64/include/QtGui/qpen.h \
+		../../../QT/6.2.4/mingw_64/include/QtGui/QGuiApplication \
+		../../../QT/6.2.4/mingw_64/include/QtGui/qguiapplication.h \
+		../../../QT/6.2.4/mingw_64/include/QtGui/qinputmethod.h \
+		../../../QT/6.2.4/mingw_64/include/QtGui/qguiapplication_platform.h \
 		gameengine.h \
 		player.h \
 		boxEnemy.h \
@@ -1257,11 +1278,6 @@ release/gameMenu.o: gameMenu.cpp gameMenu.h \
 		../../../QT/6.2.4/mingw_64/include/QtCore/QVariant \
 		../../../QT/6.2.4/mingw_64/include/QtWidgets/QApplication \
 		../../../QT/6.2.4/mingw_64/include/QtWidgets/qapplication.h \
-		../../../QT/6.2.4/mingw_64/include/QtGui/qguiapplication.h \
-		../../../QT/6.2.4/mingw_64/include/QtGui/qinputmethod.h \
-		../../../QT/6.2.4/mingw_64/include/QtGui/qguiapplication_platform.h \
-		../../../QT/6.2.4/mingw_64/include/QtWidgets/QLineEdit \
-		../../../QT/6.2.4/mingw_64/include/QtWidgets/qlineedit.h \
 		../../../QT/6.2.4/mingw_64/include/QtWidgets/QPushButton \
 		../../../QT/6.2.4/mingw_64/include/QtWidgets/qpushbutton.h \
 		../../../QT/6.2.4/mingw_64/include/QtWidgets/qabstractbutton.h \
@@ -1444,16 +1460,17 @@ release/main.o: main.cpp gameMenu.h \
 		../../../QT/6.2.4/mingw_64/include/QtGui/qtextcursor.h \
 		../../../QT/6.2.4/mingw_64/include/QtGui/qtextformat.h \
 		../../../QT/6.2.4/mingw_64/include/QtGui/qpen.h \
+		../../../QT/6.2.4/mingw_64/include/QtGui/QGuiApplication \
+		../../../QT/6.2.4/mingw_64/include/QtGui/qguiapplication.h \
+		../../../QT/6.2.4/mingw_64/include/QtGui/qinputmethod.h \
+		../../../QT/6.2.4/mingw_64/include/QtGui/qguiapplication_platform.h \
 		gameengine.h \
 		player.h \
 		boxEnemy.h \
 		enemy.h \
 		Enemy.h \
 		../../../QT/6.2.4/mingw_64/include/QtWidgets/QApplication \
-		../../../QT/6.2.4/mingw_64/include/QtWidgets/qapplication.h \
-		../../../QT/6.2.4/mingw_64/include/QtGui/qguiapplication.h \
-		../../../QT/6.2.4/mingw_64/include/QtGui/qinputmethod.h \
-		../../../QT/6.2.4/mingw_64/include/QtGui/qguiapplication_platform.h
+		../../../QT/6.2.4/mingw_64/include/QtWidgets/qapplication.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o release\main.o main.cpp
 
 release/player.o: player.cpp player.h \
@@ -1632,6 +1649,10 @@ release/player.o: player.cpp player.h \
 		../../../QT/6.2.4/mingw_64/include/QtGui/qtextcursor.h \
 		../../../QT/6.2.4/mingw_64/include/QtGui/qtextformat.h \
 		../../../QT/6.2.4/mingw_64/include/QtGui/qpen.h \
+		../../../QT/6.2.4/mingw_64/include/QtGui/QGuiApplication \
+		../../../QT/6.2.4/mingw_64/include/QtGui/qguiapplication.h \
+		../../../QT/6.2.4/mingw_64/include/QtGui/qinputmethod.h \
+		../../../QT/6.2.4/mingw_64/include/QtGui/qguiapplication_platform.h \
 		boxEnemy.h \
 		enemy.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o release\player.o player.cpp

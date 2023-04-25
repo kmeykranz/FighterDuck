@@ -7,6 +7,7 @@ Player::Player(QWidget* widget)
     player->setFixedSize(160,160);
     player->setScaledContents(true);
     this->Stand();
+    player->show();
 
     health=new QLabel(widget);
     health->move(x+50,y-30);
@@ -14,6 +15,7 @@ Player::Player(QWidget* widget)
     health->setFont(QFont("Microsoft YaHei", 20, QFont::Bold));
     health->setStyleSheet("color:green;");
     health->setText(string_health_number);
+    health->show();
 }
 Player::~Player(){
     delete player;

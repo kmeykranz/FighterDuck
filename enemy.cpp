@@ -8,13 +8,14 @@ Enemy::Enemy(QWidget* widget)
     enemy->setScaledContents(true);
     enemy->setMovie(stand_l);
     stand_l->start();
+    enemy->show();
 
     health=new QLabel(widget);
-
     string_health_number= QString::number(health_number, 10);
     health->setFont(QFont("Microsoft YaHei", 20, QFont::Bold));
     health->setStyleSheet("color:red;");
     health->setText(string_health_number);
+    health->show();
 }
 Enemy::~Enemy(){
     delete enemy;

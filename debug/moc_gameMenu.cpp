@@ -76,7 +76,6 @@ void GameMenu::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, vo
         switch (_id) {
         case 0: _t->on_startButton_clicked(); break;
         case 1: _t->on_ExitButton_clicked(); break;
-        case 2: _t->on_connectButton_clicked(); break;
         default: ;
         }
     }
