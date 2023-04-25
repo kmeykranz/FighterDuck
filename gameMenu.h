@@ -18,8 +18,6 @@ private slots:
 
     void on_ExitButton_clicked();
 
-    void on_connectButton_clicked();
-
 private:
     Ui::GameMenu *ui;
     GameEngine *w;

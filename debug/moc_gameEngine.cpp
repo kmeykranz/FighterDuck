@@ -7,7 +7,7 @@
 *****************************************************************************/
 
 #include <memory>
-#include "../gameEngine.h"
+#include "../../../../kevin/Downloads/FighterDuck-master/gameEngine.h"
 #include <QtGui/qtextcursor.h>
 #include <QtCore/qbytearray.h>
 #include <QtCore/qmetatype.h>
