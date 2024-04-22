@@ -4,7 +4,7 @@ A game made with C++ and Qt<br />
 使用的Qt版本是6.2.4<br />
 自己绘制的美术素材<br />
 对你有帮助的话给个Star吧~<br />
-<img src="https://bed.kevinwu.cc/img/fighterduck.webp" style="zoom: 20%;" />
+<img src="https://p.fiveth.cc/img/m/fighterduck.webp" style="zoom: 20%;" />
 
 ## 游戏日志如下:
 《Fighter Duck》
@@ -22,4 +22,4 @@ A game made with C++ and Qt<br />
 增加游戏开始UI菜单界面\
 加入空气墙\
 攻击沙袋可以回血\
-<img src="https://bed.kevinwu.cc/img/duckgame.webp" style="zoom: 50%;" />
+<img src="https://p.fiveth.cc/img/m/duckgame.webp" style="zoom: 50%;" />
